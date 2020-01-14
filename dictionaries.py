@@ -48,5 +48,5 @@ idioms = {
 }
 
 for idiom_title in idioms:
-		idiom 
-		print(f'{idiom_title}')
+		idiom = (' ').join(idioms[idiom_title])
+		print(f'{idiom_title}: {idiom}')
